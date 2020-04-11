@@ -10,6 +10,28 @@ nav {
   width: 100%;
 }
 
+body, nav, ul, li, article, a {
+  color: #FFFFFF
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+.author {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.story-text {
+  line-height: 1.2;
+}
+
 .logo {
   margin: 20px;
   width: 100px;
@@ -30,6 +52,22 @@ nav {
 
 .right {
   float: right;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 ul {
